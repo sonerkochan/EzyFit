@@ -37,7 +37,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection(); -------------> Disable for local network development/testing
 
 // Use CORS middleware BEFORE authorization
 app.UseCors("AllowAll");

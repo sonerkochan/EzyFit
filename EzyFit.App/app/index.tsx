@@ -12,7 +12,7 @@ export default function Index() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://localhost:7040/api/muscles") // replace with your actual API URL
+    fetch("http://192.168.2.167:5069/api/muscles") // replace with your actual API URL
       .then((res) => res.json())
       .then((data) => {
         setMuscles(data);

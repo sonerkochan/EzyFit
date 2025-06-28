@@ -50,6 +50,7 @@ out/
 *.exe
 *.dll
 *.app
+!EzyFit.App/
 *.so
 *.dylib
 *.ncb
